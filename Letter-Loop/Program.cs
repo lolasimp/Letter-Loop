@@ -29,8 +29,9 @@ namespace Letter_Loop
                 whatIgetBack += lettersToGet;
                 counter++;
             }
-            //What's shown in the console.
-            Console.WriteLine(whatIgetBack.Trim(new char[] { '-'}));
+            //What's shown in the console. 
+            //had to add Trim to remove last -
+            Console.WriteLine(whatIgetBack.Trim(new char[] {'-'}));
             Console.ReadLine();
 
 
