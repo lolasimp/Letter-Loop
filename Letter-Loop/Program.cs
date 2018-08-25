@@ -30,7 +30,7 @@ namespace Letter_Loop
                 counter++;
             }
             //What's shown in the console.
-            Console.WriteLine(whatIgetBack);
+            Console.WriteLine(whatIgetBack.Trim(new char[] { '-'}));
             Console.ReadLine();
 
 
